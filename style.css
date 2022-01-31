@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    margin: 20px;
+}
+
+.input-class {
+    height: 30px;
+}
+.inputs-error-div {
+   height: 20px;
+   font-size: 14px;
+   color: rgba(255, 0, 0, 0.651);
+   font-weight: bold;
+}
+
+canvas {
+    border: 2px solid #999;
+}
+
+#inputs {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    gap: 5px;
+}
+
+.buttons {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+#calc-button {
+    width: 50%;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(44,90,145);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#draw-button {
+    width: 50%;
+    height: 30px;
+    color: #fff;
+    background-color: rgb(44,90,145);
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#clear-button {
+    height: 30px;
+    color: #fff;
+    background-color: rgb(44,90,145);
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+#canvas-div {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+
+#showMessage {
+    /* border: 2px solid red; */
+    width: 200px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: red;
+    line-height: 1.5;
+}
